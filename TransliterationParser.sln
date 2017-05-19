@@ -1,7 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "TransliterationParser", "TransliterationParser\TransliterationParser.fsproj", "{6AA6131B-8CA5-4365-9E7C-AEDA2B5F0B00}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "TransliterationLib", "TransliterationLib\TransliterationLib.fsproj", "{10E92A7F-A350-4CD1-948C-F3E335E22584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{CF3B0E89-AC5B-4919-A992-DCD6674B74ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transliteration", "Transliteration\Transliteration.csproj", "{560171FD-DBB3-47DA-A69F-B640D0532950}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +13,17 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6AA6131B-8CA5-4365-9E7C-AEDA2B5F0B00}.Debug|x86.ActiveCfg = Debug|x86
-		{6AA6131B-8CA5-4365-9E7C-AEDA2B5F0B00}.Debug|x86.Build.0 = Debug|x86
-		{6AA6131B-8CA5-4365-9E7C-AEDA2B5F0B00}.Release|x86.ActiveCfg = Release|x86
-		{6AA6131B-8CA5-4365-9E7C-AEDA2B5F0B00}.Release|x86.Build.0 = Release|x86
+		{10E92A7F-A350-4CD1-948C-F3E335E22584}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10E92A7F-A350-4CD1-948C-F3E335E22584}.Debug|x86.Build.0 = Debug|Any CPU
+		{10E92A7F-A350-4CD1-948C-F3E335E22584}.Release|x86.ActiveCfg = Release|Any CPU
+		{10E92A7F-A350-4CD1-948C-F3E335E22584}.Release|x86.Build.0 = Release|Any CPU
+		{CF3B0E89-AC5B-4919-A992-DCD6674B74ED}.Debug|x86.ActiveCfg = Debug|x86
+		{CF3B0E89-AC5B-4919-A992-DCD6674B74ED}.Debug|x86.Build.0 = Debug|x86
+		{CF3B0E89-AC5B-4919-A992-DCD6674B74ED}.Release|x86.ActiveCfg = Release|x86
+		{CF3B0E89-AC5B-4919-A992-DCD6674B74ED}.Release|x86.Build.0 = Release|x86
+		{560171FD-DBB3-47DA-A69F-B640D0532950}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{560171FD-DBB3-47DA-A69F-B640D0532950}.Debug|x86.Build.0 = Debug|Any CPU
+		{560171FD-DBB3-47DA-A69F-B640D0532950}.Release|x86.ActiveCfg = Release|Any CPU
+		{560171FD-DBB3-47DA-A69F-B640D0532950}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
